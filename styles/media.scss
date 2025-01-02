@@ -1,0 +1,94 @@
+@media screen and (max-width: 768px) {
+    header{
+        padding: 0;
+        display: flex;
+        height: auto;
+    }
+
+    header .right-header{
+        padding: 2rem !important;
+    }
+
+    .header-content{
+        grid-template-columns: 2fr;
+        padding-bottom: 6rem;
+    }
+
+    .header-content .left-header{
+        margin: 0 auto;
+        width: 90%;
+        .image {
+            width: 50%;
+        }
+    }
+    
+    .h-shape{
+        display: none;
+    }
+
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .controls{
+        top: auto;
+        bottom: 0;
+        grid: flex;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-1);
+        padding-top: 0;
+        .control{
+            margin: .4rem 1rem;
+        }
+    }
+
+    .main-title {
+        .about-container {
+            grid-template-columns: 1fr;
+            .left-about{
+                padding-right: 0;
+                p{
+                    padding-left: 0;
+                    padding-bottom: 1rem;
+                }
+            }
+            .right-about{
+                padding-top: 2.5rem;
+                grid-template-columns: 1fr;
+            }
+        }
+        .exp-container{
+            grid-template-columns: 1fr;
+        }
+        .port-container{
+            grid-template-columns: 1fr;
+        }
+        .contact-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            .left-contact{
+                grid-template-columns: 1fr;
+            }
+            .right-contact{
+                grid-template-columns: 1fr;
+                .i-c-2 {
+                    display: grid;
+                    :last-child{
+                        margin-left: 0;
+                        margin-top: 1rem ;
+                    }
+                }
+            }
+        }
+    }
+
+    .section {
+        padding: 2rem 2.5rem;
+    }
+}
