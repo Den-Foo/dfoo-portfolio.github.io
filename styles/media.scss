@@ -49,6 +49,13 @@
     }
 
     .main-title {
+        h2{
+            font-size: 2rem;
+        }
+        h4{
+            position: relative;
+            font-size: 2rem;
+        }
         .about-container {
             grid-template-columns: 1fr;
             .left-about{

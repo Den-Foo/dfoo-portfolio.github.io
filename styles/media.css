@@ -41,6 +41,13 @@
   .controls .control {
     margin: 0.4rem 1rem;
   }
+  .main-title h2 {
+    font-size: 2rem;
+  }
+  .main-title h4 {
+    position: relative;
+    font-size: 2rem;
+  }
   .main-title .about-container {
     grid-template-columns: 1fr;
   }
